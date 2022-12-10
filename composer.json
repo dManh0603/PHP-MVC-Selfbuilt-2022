@@ -1,0 +1,18 @@
+{
+    "name": "taykh/php-mvc-self-built-2022",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "dmanh",
+            "email": "dmanh6302@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

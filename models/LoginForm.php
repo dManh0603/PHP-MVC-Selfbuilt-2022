@@ -7,9 +7,9 @@
 
 namespace app\models;
 
-use app\core\Application;
+use dmanh0603\phpmvc\Application;
 
-class LoginForm extends \app\core\Model
+class LoginForm extends \dmanh0603\phpmvc\Model
 {
     public string $email = '';
     public string $password = '';

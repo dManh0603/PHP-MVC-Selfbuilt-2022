@@ -7,14 +7,14 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\middlewares\AuthMiddleware;
-use app\core\Request;
-use app\core\Response;
+use dmanh0603\phpmvc\Application;
+use dmanh0603\phpmvc\middlewares\AuthMiddleware;
+use dmanh0603\phpmvc\Request;
+use dmanh0603\phpmvc\Response;
 use app\models\LoginForm;
 use app\models\User;
 
-class AuthController extends \app\core\Controller
+class AuthController extends \dmanh0603\phpmvc\Controller
 {
 
 

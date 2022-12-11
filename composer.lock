@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6941600b71f9112d6c3f3c61649a75d7",
+    "content-hash": "115be2f298e5c6ebe2839ec13006ef29",
     "packages": [
+        {
+            "name": "dmanh0603/php-mvc-core",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dManh0603/PHP-MVC-Core-Selftbuilt-2022.git",
+                "reference": "1c40da47e8f06c824f8bf1c326c8b9dea61506c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dManh0603/PHP-MVC-Core-Selftbuilt-2022/zipball/1c40da47e8f06c824f8bf1c326c8b9dea61506c5",
+                "reference": "1c40da47e8f06c824f8bf1c326c8b9dea61506c5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dmanh0603\\phpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "dmanh",
+                    "email": "dmanh6302@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/dManh0603/PHP-MVC-Core-Selftbuilt-2022/issues",
+                "source": "https://github.com/dManh0603/PHP-MVC-Core-Selftbuilt-2022/tree/v0.1"
+            },
+            "time": "2022-12-10T03:39:15+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.1.0",

@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
-use app\core\Application;
+use dmanh0603\phpmvc\Application;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);

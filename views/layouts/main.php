@@ -26,7 +26,7 @@
                 </li>
             </ul>
 
-            <?php if (\app\core\Application::isGuest()): ?>
+            <?php if (\dmanh0603\phpmvc\Application::isGuest()): ?>
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/login">Login</a>
@@ -39,7 +39,7 @@
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
-                           href="/logout">Welcome <?php echo \app\core\Application::$app->user->getDisplayName() ?>
+                           href="/logout">Welcome <?php echo \dmanh0603\phpmvc\Application::$app->user->getDisplayName() ?>
                             (Logout)
                         </a>
                     </li>
@@ -56,9 +56,9 @@
 </nav>
 
 <div class="container">
-    <?php if (\app\core\Application::$app->session->getFlash('success')): ?>
+    <?php if (\dmanh0603\phpmvc\Application::$app->session->getFlash('success')): ?>
         <div class="alert alert-success">
-            <?php echo \app\core\Application::$app->session->getFlash('success') ?>
+            <?php echo \dmanh0603\phpmvc\Application::$app->session->getFlash('success') ?>
         </div>
     <?php endif; ?>
 

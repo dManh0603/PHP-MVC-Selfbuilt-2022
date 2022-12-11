@@ -5,7 +5,7 @@
  * Time: 3:42 PM
  **/
 
-use app\core\Application;
+use dmanh0603\phpmvc\Application;
 
 class m0002_add_password_col_to_Users
 {

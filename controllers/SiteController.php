@@ -7,10 +7,10 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
+use dmanh0603\phpmvc\Application;
+use dmanh0603\phpmvc\Controller;
+use dmanh0603\phpmvc\Request;
+use dmanh0603\phpmvc\Response;
 use app\models\ContactForm;
 
 class SiteController extends Controller

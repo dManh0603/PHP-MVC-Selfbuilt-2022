@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-class ContactForm extends \app\core\Model
+class ContactForm extends \dmanh0603\phpmvc\Model
 {
     public string $subject = '';
     public string $email = '';
